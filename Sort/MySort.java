@@ -11,17 +11,21 @@ import java.util.ArrayList;
 import java.util.List;
 public class MySort{
     ArrayList<Double> sorting;
-    pubic MySort(){
+    public MySort(){
         sorting = new ArrayList<Double>();
-        sorting.add(23);
-        sorting.add(15);
-        sorting.add(35);
+        sorting.add(1);
+        sorting.add(32);
     }
     //print preview
     public void printPreview(){
-        System.out.prinln(sorting);
-        
+        for( double i = 0; i < MySort.size(); i++){
+        System.out.println(MySort);
     }
-    
+    }
 }
+    
+        
+    
+    
+
     
