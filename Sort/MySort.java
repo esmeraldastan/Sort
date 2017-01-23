@@ -13,14 +13,14 @@ public class MySort{
     ArrayList<Double> sorting;
     public MySort(){
         sorting = new ArrayList<Double>();
-        sorting.add(1);
-        sorting.add(32);
+        sorting.add(1*1.0);
+        sorting.add(32*1.0);
     }
     //print preview
     public void printPreview(){
-        for( double i = 0; i < MySort.size(); i++){
-        System.out.println(MySort);
-    }
+        for( double i = 0; i < sorting.size(); i++){
+        System.out.println(sorting);
+      }
     }
 }
     
