@@ -9,12 +9,22 @@
 //doubles
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.Math;
 public class MySort{
     ArrayList<Double> sorting;
+    //public MySort(){
+        // = new ArrayList<Double>();
+       // sorting.add();
+        //sorting.add();
+    
     public MySort(){
-        sorting = new ArrayList<Double>();
-        sorting.add(1*1.0);
-        sorting.add(32*1.0);
+        sorting.addAll(RandomArray(10000));// this adds 10,000 random
+    }
+    
+    private static ArrayList<Double>RandomArray(int n){
+        /**
+         * This method creates n random numbers between 0 (including) and 10,000
+         */
     }
     //print preview
     public void printPreview(){
