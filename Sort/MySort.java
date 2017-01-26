@@ -11,20 +11,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.lang.Math;
 public class MySort{
-    ArrayList<Double> sorting = new ArrayList<Double>();
+    ArrayList<Integer> sorting = new ArrayList<Integer>();
     public MySort(){
         sorting.addAll(RandomArray(10000));// this adds 10,000 random
     }
     
-    private static ArrayList<Double>RandomArray(int n){
+    private static ArrayList<Integer>RandomArray(int n){
         /**
          * This method creates n random numbers between 0 (including) and 10,000
          */
+        ArrayList<Integer> arrayRandom = new ArrayList<Integer>();
        for (int i=0; i<n; i++)
         {
-            //arrayRandom.add(Math.random()*100);
+            arrayRandom.add((int)(Math.random()*100000));
         }
-        //return arrayRandom;
+        return arrayRandom;
      }
     //print preview
     public void printPreview(){
@@ -39,10 +40,13 @@ public class MySort{
         int value = 0 ;
         for( int i = 0; i < nuM; i++){
             for( int i2 = i ; i2 < nuM[i - i2]; i2++){
+                if (numberlist[ i2 < 1 }
             }
         
         
     }
+   }
+   
 }
     
         
