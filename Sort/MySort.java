@@ -22,15 +22,26 @@ public class MySort{
          */
        for (int i=0; i<n; i++)
         {
-            arrayRandom.add(Math.random()*100);
+            //arrayRandom.add(Math.random()*100);
         }
-        return arrayRandom;
+        //return arrayRandom;
      }
     //print preview
     public void printPreview(){
         for( double i = 0; i < sorting.size(); i++){
         System.out.println(sorting);
       }
+    }
+    
+    //Bubble Method 
+    public static void bubbleMethod(int[] numberlist){
+        int nuM = numberlist.length; 
+        int value = 0 ;
+        for( int i = 0; i < nuM; i++){
+            for( int i2 = i ; i2 < nuM[i - i2]; i2++){
+            }
+        
+        
     }
 }
     
