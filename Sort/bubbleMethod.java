@@ -29,6 +29,7 @@ public class bubbleMethod{
      
      public void printPreview(){
         for( int i = 0; i < sorting.size(); i++){
+        // number printed form i itself    
         System.out.println(sorting.get(i));
       }
     }
@@ -47,6 +48,9 @@ public class bubbleMethod{
          }
        }
     }
+    public  void printBubbleMethod(){
+     }
+}
 }
     
     
