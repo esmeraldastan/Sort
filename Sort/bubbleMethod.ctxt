@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.params=
-comment0.target=MySort()
+comment0.target=bubbleMethod()
 comment1.params=n
 comment1.target=java.util.ArrayList\ RandomArray(int)
 comment2.params=
 comment2.target=void\ printPreview()
-comment3.params=numberlist
+comment3.params=arrayRandom
 comment3.target=void\ bubbleMethod(int[])
 numComments=4
