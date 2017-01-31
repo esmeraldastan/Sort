@@ -20,7 +20,7 @@ public class bubbleMethod{
          * This method creates n random numbers between 0 (including) and 10,000
          */
         ArrayList<Integer> arrayRandom = new ArrayList<Integer>();
-       for (int i=0; i<n; i++)
+       for (int i= 0 ; i<n; i++)
         {
             arrayRandom.add((int)(Math.random()*100000));
         }
@@ -33,24 +33,42 @@ public class bubbleMethod{
         System.out.println(sorting.get(i));
       }
     }
-     
-     public static void bubbleMethod(int[] arrayRandom){
-        int nuM = arrayRandom.length; 
-        int value = 0 ;
-        for( int i = 0; i < nuM; i++){
-                                     //numberlist - i2
-            for( int i2 = i ; i2 < (nuM- i2); i2++){
-                if (arrayRandom[ i2 - 1 ]> arrayRandom[i2]){
-                 value = arrayRandom[i2 - 1];//same as if 
-                 arrayRandom[i2 - 1]  = arrayRandom[i2];
-                 arrayRandom[i2] = value;
+     /**
+      * while(boolean){
+      *     boolean inorder = True; //goes on the outside "False"
+      *     
+      * for(int =0 ; i < arraylist.size; i ++){
+      *     if (arraylist.get(i)>arraylist.get(i+ 1){
+      *         inorder = False;
+      *         int temp = arraylist.get(i)
+      *         arraylist.set( i, arraylist.get(i +1));
+      *         arraylist.set(i+1, temp);
+      *         }
+      */
+     public  void bubbleMethod(){
+         
+         boolean inorder = false;
+         while(inorder){
+             inorder = true;
+            int nuM = sorting.size; 
+           for( int i = 0; i < nuM ; i++){
+               if (arrayRandom.get(i) > nuM.get(i+1)){
+                inorder = false;
+                int temp = nuM.get(i);
+                nuM.set(i ,arraylist.get(i+1));
+                nuM.set(i+1, temp);
+                
+                
+                 
+                }
            }
-         }
-       }
+            }
     }
-    public  void printBubbleMethod(){
-     }
 }
-}
+    
+        
+     
+
+
     
     

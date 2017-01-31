@@ -35,26 +35,26 @@ public class MySort{
     }
     
     //Bubble Method 
-    public static void bubbleMethod(int[] numberlist){
-        int nuM = numberlist.length; 
-        int value = 0 ;
-        for( int i = 0; i < nuM; i++){
-                                     //numberlist - i2
-            for( int i2 = i ; i2 < (nuM- i2); i2++){
-                if (numberlist[ i2 - 1 ]> numberlist[i2]){
-                 value = numberlist[i2 - 1];//same as if 
-                 numberlist[i2 - 1] = numberlist[i2];
-                 numberlist[i2] = value;
+    public  void bubbleMethod(){
+         
+         boolean inorder = false;
+         while(inorder){
+             inorder = true;
+             //int nuM = sorting.size(); 
+           for( int i = 0; i < sorting.size(); i++){
+               if (sorting.get(i) > nuM.get(i+1)){
+                inorder = false;
+                int temp = nuM.get(i);
+                nuM.set(i ,arraylist.get(i+1));
+                nuM.set(i+1, temp);
+                
+                
                  
-                 
-                 
+                }
+           }
             }
-        
-        
-          }
-       }
    
-    }
+        }
 }
     
         
