@@ -21,7 +21,7 @@ public class MySort{
          * This method creates n random numbers between 0 (including) and 10,000
          */
         ArrayList<Integer> arrayRandom = new ArrayList<Integer>();
-       for (int i=0; i<n; i++)
+       for (int i=0; i<12; i++)// twelve #
         {
             arrayRandom.add((int)(Math.random()*100000));
         }
@@ -33,26 +33,24 @@ public class MySort{
         System.out.println(sorting.get(i));
       }
     }
-    
     //Bubble Method 
-    public  void bubbleMethod(){
+    public void bubbleMethod(){
          
          boolean inorder = false;
          while(inorder){
              inorder = true;
-             //int nuM = sorting.size(); 
            for( int i = 0; i < sorting.size(); i++){
                if (sorting.get(i) > sorting.get(i+1)){
                 inorder = false;
                 int temp = sorting.get(i);
                 sorting.set(i ,sorting.get(i+1));
                 sorting.set(i+1, temp);
-                
-                
-                 
-                }
+               }
            }
             }
+        }
+    public void insertionMethod(){
+        
    
         }
 }

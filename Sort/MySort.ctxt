@@ -7,4 +7,6 @@ comment2.params=
 comment2.target=void\ printPreview()
 comment3.params=
 comment3.target=void\ bubbleMethod()
-numComments=4
+comment4.params=
+comment4.target=void\ insertionMethod()
+numComments=5
