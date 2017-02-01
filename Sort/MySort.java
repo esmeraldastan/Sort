@@ -29,8 +29,8 @@ public class MySort{
      }
     //print preview
     public void printPreview(){
-        for( double i = 0; i < sorting.size(); i++){
-        System.out.println(sorting);
+        for( int i = 0; i < sorting.size(); i++){
+        System.out.println(sorting.get(i));
       }
     }
     
@@ -42,11 +42,11 @@ public class MySort{
              inorder = true;
              //int nuM = sorting.size(); 
            for( int i = 0; i < sorting.size(); i++){
-               if (sorting.get(i) > nuM.get(i+1)){
+               if (sorting.get(i) > sorting.get(i+1)){
                 inorder = false;
-                int temp = nuM.get(i);
-                nuM.set(i ,arraylist.get(i+1));
-                nuM.set(i+1, temp);
+                int temp = sorting.get(i);
+                sorting.set(i ,sorting.get(i+1));
+                sorting.set(i+1, temp);
                 
                 
                  
