@@ -31,12 +31,13 @@ public class MySort{
     public void printPreview(){
         for( int i = 0; i < sorting.size(); i++){
         System.out.println(sorting.get(i));
+        
       }
+      System.out.println();
     }
     //Bubble Method 
     public void bubbleMethod(){
-         
-         boolean inorder = false;
+          boolean inorder = false;
          while(inorder){
              inorder = true;
            for( int i = 0; i < sorting.size(); i++){
@@ -50,6 +51,8 @@ public class MySort{
             }
         }
     public void insertionMethod(){
+        boolean order = false;
+        
         
    
         }
