@@ -52,6 +52,10 @@ public class MySort{
         }
     public void insertionMethod(){
         boolean order = false;
+        for (int i = 0 ; i < sorting.length(); i++)
+        while (order){
+            inorder = true;
+            for 
         
         
    
