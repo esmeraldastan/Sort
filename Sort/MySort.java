@@ -60,7 +60,16 @@ public class MySort{
         
    
         }
-}
+    }
+    public void selectionMethod (){
+    boolean sortarray = false;
+    while (sortarray){
+        for ( int  i = sorting.size - 1;  i < sorting.size(); i++)
+        if  
+         }
+   }
+     }
+   
     
         
     
