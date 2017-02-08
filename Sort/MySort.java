@@ -62,13 +62,18 @@ public class MySort{
         }
     }
     public void selectionMethod (){
-    boolean sortarray = false;
-    while (sortarray){
-        for ( int  i = sorting.size - 1;  i < sorting.size(); i++)
-        if  
+     for ( int i = 0; i < sorting.size - 1; i++){
+         int index = i;
+        for (int a = i + 1; a < sorting.size; a++){
+        if ( sorting[a] < sorting[index] ){
+            index = a; 
          }
-   }
+         int leastNumb = sorting.get(i);
+         sorting.se
+       }
      }
+    }
+}
    
     
         
