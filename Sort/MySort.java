@@ -50,7 +50,9 @@ public class MySort{
            }
             }
         }
-    public void insertionMethod(){
+    /**
+     * 
+     public void insertionMethod(){
         boolean order = false;
         for (int i = 0 ; i < sorting.length(); i++)
         while (order){
@@ -61,6 +63,9 @@ public class MySort{
    
         }
     }
+    */
+   /
+   
     public void selectionMethod (){
      for ( int i = 0; i < sorting.size - 1; i++){
          int index = i;
