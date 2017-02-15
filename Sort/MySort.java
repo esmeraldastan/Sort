@@ -57,9 +57,9 @@ public class MySort{
     //Bubble Method 
     public void bubbleMethod(){
           boolean inorder = false;
-         while(inorder){
+         while(!inorder){
              inorder = true;
-           for( int i = 0; i < sorting.size(); i++){
+           for( int i = 0; i < sorting.size()-1; i++){
                if (sorting.get(i) > sorting.get(i+1)){
                 inorder = false;
                 int temp = sorting.get(i);
